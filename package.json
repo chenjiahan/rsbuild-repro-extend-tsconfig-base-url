@@ -1,0 +1,21 @@
+{
+  "name": "rsbuild_extended_tsconfig_paths",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "build:webpack": "WEBPACK=1 rsbuild build",
+    "build:js": "node ./build.js",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.4.3",
+    "@rsbuild/webpack": "^0.4.3",
+    "typescript": "^5.3.0"
+  }
+}
